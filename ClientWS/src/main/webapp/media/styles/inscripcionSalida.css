@@ -1,0 +1,206 @@
+.imgPerfil {
+	width: 50px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.nomPerfil {
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.perfil {
+	position: absolute;
+	right: 140px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.menu>li:last-child {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+
+.menu>li {
+	position: relative;
+	display: inline-block;
+	z-index: 1000;
+}
+
+.menu>li>a {
+	display: block;
+	padding: 15px 20px;
+	color: black;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color: rgba(116, 22, 240, 0.938);
+	background-color: #141147;
+	transition: all .3s;
+}
+
+.head {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.titCS {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: black;
+}
+
+.titSeleccione1 {
+	text-align: center;
+	padding-top: 10px;
+	color: black;
+}
+
+.ConsultaSal {
+	background-color: #F2F3EB;
+	width: 60%;
+	border: 3px solid rgba(180, 180, 180, 0.534);
+	padding: 5px;
+	display: flex;
+	color: black;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.ConsultaSal:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ActividadesCons {
+	background-color: #F2F3EB;
+	width: 60%;
+	border: 3px solid rgba(180, 180, 180, 0.534);
+	padding: 5px;
+	display: flex;
+	color: black;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.ActividadesCons:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.SalidasCons {
+	background-color: #F2F3EB;
+	width: 60%;
+	border: 3px solid rgba(180, 180, 180, 0.534);
+	padding: 5px;
+	display: flex;
+	color: black;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.SalidasCons:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tablaAct {
+	border-collapse: separate;
+	width: 25%;
+	border-spacing: 11px 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.tablaSal {
+	border-collapse: separate;
+	width: 25%;
+	border-spacing: 10px 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.tablaDepCat {
+	border-collapse: separate;
+	width: 25%;
+	border-spacing: 10px 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.login {
+	background-color: #F2F3EB;
+	width: 60%;
+	border: 3px solid rgba(180, 180, 180, 0.534);
+	padding: 5px;
+	display: flex;
+	color: black;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.login:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tabla {
+	border-collapse: separate;
+	border-spacing: 3rem 1em;
+}
+
+.tabla td {
+	color: black;
+}
+
+​
+
+#id_1 {
+	width: 100px;
+	height: 30px;
+	padding: 10px;
+}
+
+#button {
+	width: 150px;
+	height: 40px;
+	position: relative;
+	left: 150px;
+	background-color: #F2F3EB;
+	color: black;
+	transition-duration: 0.3s;
+}
+
+#button:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+#button2 {
+	width: 150px;
+	height: 40px;
+	position: relative;
+	left: 70px;
+	background-color: #F2F3EB;
+	color: black;
+	transition-duration: 0.4s;
+}
+
+#button2:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.MensajeError {
+	color: red;
+	text-transform: uppercase;
+	text-align: center;
+}

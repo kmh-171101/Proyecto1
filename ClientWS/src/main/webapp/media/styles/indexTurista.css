@@ -1,0 +1,211 @@
+body {
+	background-color: #F2F3EB;
+}
+
+.imgPerfil {
+	width: 50px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.nomPerfil {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.perfil {
+	position: absolute;
+	right: 140px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.menu>li:last-child {
+	position: absolute;
+	right: 10px;
+}
+
+.menu>li {
+	position: relative;
+	display: inline-block;
+	z-index: 1000;
+}
+
+.menu>li>a {
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color: rgba(116, 22, 240, 0.938);
+	background-color: #141147;
+	transition: all .3s;
+}
+
+.perfil:hover {
+	color: rgba(116, 22, 240, 0.938);
+	background-color: #141147;
+	transition: all .3s;
+}
+
+.Consultas {
+	position: absolute;
+	display: none;
+	background-color: #141325;
+	width: 200%;
+}
+
+.Otros {
+	position: absolute;
+	display: none;
+	background-color: #141325;
+	width: 250%;
+}
+
+.bandera {
+	width: 36px;
+	padding: 5px;
+}
+
+.titulo {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.Consultas li a {
+	display: block;
+	padding: 10px;
+	font-family: 'Open sans';
+	text-decoration: none;
+	color: white;
+	width: 100%;
+}
+
+.Otros li a {
+	display: block;
+	padding: 10px;
+	font-family: 'Open sans';
+	text-decoration: none;
+	color: white;
+	width: 100%;
+}
+
+.menu li:hover .Consultas {
+	display: block;
+}
+
+.menu li:hover .Otros {
+	display: block;
+}
+
+.contenedorFoto {
+	background: #8E2DE2; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, hsla(260, 100%, 44%, 0.425),
+		hsla(272, 76%, 53%, 0.404)), url(../images/fondo.jpg);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	height: 541px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenidoFoto {
+	width: 70%;
+}
+
+.contenidoFoto h2 {
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.contenidoFoto p {
+	text-align: center;
+	color: #fff;
+}
+
+.contenedorFoto .wave {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+}
+
+@media ( min-height :951px) {
+	.contenedorFoto {
+		height: 840px;
+	}
+}
+
+.fotos {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	max-width: 1200px;
+	height: 330px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-bottom: 100px;
+}
+
+.fotos .card {
+	width: 330px;
+	height: 330px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+.fotos .card:hover {
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.fotos .card img {
+	width: 330px;
+	height: 220px;
+}
+
+.lugares {
+	margin-top: 100px;
+}
+
+.lugares>h2 {
+	margin-top: 200px;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: black;
+	font-size: 40px;
+}
+
+.lugares h2 {
+	margin: 10px;
+	padding: 10px;
+	color: #141325;
+	font-size: 20px;
+}
+
+.departamento {
+	color: #bebebe;
+}

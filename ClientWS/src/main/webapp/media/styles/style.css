@@ -1,0 +1,40 @@
+* {
+	font-family: 'Open sans';
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F2F3EB;
+	color: rgba(180, 180, 180, 0.534);
+	font-family: 'Open sans';
+}
+
+.navegacion {
+	width: 100%;
+	background-color: #141325;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 50px;
+}
+
+.navegacion ul {
+	list-style: none;
+}
+
+.bandera {
+	width: 36px;
+	padding: 5px;
+}
+
+.titulo {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}

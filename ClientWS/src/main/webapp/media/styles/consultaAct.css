@@ -1,0 +1,111 @@
+.head {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.tituloCAT {
+	text-align: center;
+	padding-top: 15px;
+	color: black;
+}
+
+.imagenActividad {
+	width: 250px;
+	float: left;
+}
+
+.ConsultaActividad {
+	background-color: #F2F3EB;
+	width: 50%;
+	border: 3px solid rgba(180, 180, 180, 0.534);
+	padding: 5px;
+	display: flex;
+	color: black;
+	margin: 0 auto;
+	align-items: left;
+}
+
+.ConsultaActividad:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Detalles {
+	border-collapse: separate;
+	width: 50%;
+	border-spacing: 10px 10px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.listas {
+	border-collapse: separate;
+	width: 50%;
+	border-spacing: 10px 10px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.Lst {
+	background-color: #F2F3EB;
+	width: 50%;
+	border: 3px solid rgba(180, 180, 180, 0.534);
+	padding: 5px;
+	display: flex;
+	color: black;
+	margin: 0 auto;
+	align-items: left;
+}
+
+.Lst:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.imgPerfil {
+	width: 30px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.nomPerfil {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.perfil {
+	position: absolute;
+	right: 140px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.menu>li:last-child {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+
+.menu>li {
+	position: relative;
+	display: inline-block;
+	z-index: 1000;
+}
+
+.menu>li>a {
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color: rgba(116, 22, 240, 0.938);
+	background-color: #141147;
+	transition: all .3s;
+}
